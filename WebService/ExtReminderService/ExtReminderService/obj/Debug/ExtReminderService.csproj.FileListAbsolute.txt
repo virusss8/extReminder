@@ -1,0 +1,10 @@
+C:\Users\Ronzy\ExtReminder\WebService\ExtReminderService\ExtReminderService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ronzy\ExtReminder\WebService\ExtReminderService\ExtReminderService\bin\ExtReminderService.dll
+C:\Users\Ronzy\ExtReminder\WebService\ExtReminderService\ExtReminderService\bin\ExtReminderService.pdb
+C:\Users\Ronzy\ExtReminder\WebService\ExtReminderService\ExtReminderService\obj\Debug\ExtReminderService.dll
+C:\Users\Ronzy\ExtReminder\WebService\ExtReminderService\ExtReminderService\obj\Debug\ExtReminderService.pdb
+C:\Users\Tadej\Desktop\ExtReminder\WebService\ExtReminderService\ExtReminderService\bin\ExtReminderService.dll
+C:\Users\Tadej\Desktop\ExtReminder\WebService\ExtReminderService\ExtReminderService\bin\ExtReminderService.pdb
+C:\Users\Tadej\Desktop\ExtReminder\WebService\ExtReminderService\ExtReminderService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tadej\Desktop\ExtReminder\WebService\ExtReminderService\ExtReminderService\obj\Debug\ExtReminderService.dll
+C:\Users\Tadej\Desktop\ExtReminder\WebService\ExtReminderService\ExtReminderService\obj\Debug\ExtReminderService.pdb

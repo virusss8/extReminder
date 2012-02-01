@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    >
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="fill_parent" android:orientation="vertical" android:layout_width="fill_parent">
+        <ImageButton android:src="@drawable/strunjan" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/strunjan"></ImageButton>
+    <ImageButton android:src="@drawable/portoroz" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/portoroz"></ImageButton>
+    <ImageButton android:src="@drawable/moravske" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/moravske"></ImageButton>
+    <ImageButton android:src="@drawable/catez" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/catez"></ImageButton>
+    <ImageButton android:src="@drawable/dobrna" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/dobrna"></ImageButton>
+    <ImageButton android:src="@drawable/dolenjske" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/dolenjske"></ImageButton>
+    <ImageButton android:src="@drawable/lendava" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/lendava"></ImageButton>
+    <ImageButton android:src="@drawable/podcetrtek" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/podcetrtek"></ImageButton>
+    <ImageButton android:src="@drawable/ptuj" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/ptuj"></ImageButton>
+    <ImageButton android:src="@drawable/smarjeske" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/smarjeske"></ImageButton>
+    <ImageButton android:src="@drawable/topolsica" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/topolsica"></ImageButton>
+    <ImageButton android:src="@drawable/zrece" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/zrece"></ImageButton>
+    <ImageButton android:src="@drawable/lasko" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/lasko"></ImageButton>
+    <ImageButton android:src="@drawable/radenci" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/radenci"></ImageButton>
+    <ImageButton android:src="@drawable/rogaska" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/rogaska"></ImageButton>
+    </LinearLayout>
+</ScrollView>

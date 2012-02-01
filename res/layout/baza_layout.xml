@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:background="@drawable/backrepeat"
+	android:orientation="vertical">
+<LinearLayout 
+    	android:id="@+id/linearLayout1" 
+    	android:layout_height="match_parent" 
+    	android:layout_width="match_parent">
+    
+    	<TextView 
+    		android:textSize="30sp" 
+    		android:gravity="left" 
+    		android:layout_weight="1" 
+    		android:id="@+id/tvOne" 
+    		android:layout_height="wrap_content" 
+    		android:text="ime" 
+    		android:textColor="#00CC00"
+    		android:layout_width="wrap_content"
+    		android:shadowRadius="5"
+    		android:shadowColor="#FFFF00"
+    		android:shadowDx="5"
+    		android:shadowDy="5">  		
+    	</TextView>
+    	<TextView 
+    		android:textSize="25sp" 
+    		android:gravity="right" 
+    		android:layout_weight="1" 
+    		android:id="@+id/tvTwo" 
+    		android:layout_height="wrap_content" 
+    		android:text="x tablet" 
+    		android:layout_gravity="right" 
+    		android:layout_width="wrap_content">
+    	</TextView>
+	</LinearLayout>
+	
+    	<TextView 
+    		android:textSize="25sp" 
+    		android:gravity="right" 
+    		android:layout_weight="1" 
+    		android:id="@+id/tvThree" 
+    		android:layout_height="wrap_content" 
+    		android:text="vzeti na vsakih x ur" 
+    		android:layout_gravity="right" 
+    		android:layout_width="wrap_content">
+    	</TextView>
+    	
+</LinearLayout>

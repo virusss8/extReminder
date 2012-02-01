@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    >
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="fill_parent" android:orientation="vertical" android:layout_width="fill_parent">
+        <ImageView android:id="@+id/imageView1" android:src="@drawable/ifeelslovenia" android:layout_height="match_parent" android:layout_width="match_parent"></ImageView>
+        <TextView android:textColor="#8EBF39" android:text="Dobrodošli na sLOVEniaInfo parser" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="match_parent" android:gravity="center" android:id="@+id/title" android:layout_width="match_parent"></TextView>
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/logo"></ImageView>
+        <TextView android:textColor="#000000" android:textSize="15dp" android:text="@string/pozdrav" android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/hello"></TextView>
+        <ImageButton android:src="@drawable/slovenia_mini" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/ibSlovenia"></ImageButton>
+        <ImageButton android:src="@drawable/wellness_mini" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/ibWellness"></ImageButton>
+    </LinearLayout>
+</ScrollView>

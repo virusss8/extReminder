@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- Display settings -->
+	<PreferenceCategory android:title="Jezikovna nastavitev">
+		<ListPreference android:key="LANG" android:title="Izberi jezik"
+			android:summary="" android:entries="@array/language_opis"
+			android:entryValues="@array/language_dejansko" android:dialogTitle="Izberi vrednost"
+			android:defaultValue="1" />
+	</PreferenceCategory>
+</PreferenceScreen>

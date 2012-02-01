@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="match_parent"
+  	android:layout_height="match_parent" 
+  	android:orientation="vertical">
+    
+    <TextView 
+    	android:layout_width="wrap_content" 
+    	android:id="@+id/tv_add_name" 
+    	android:layout_height="wrap_content" 
+    	android:layout_gravity="center" 
+    	android:text="Zdravilo"
+    	android:textSize="20sp">
+    </TextView>
+    <EditText 
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content"
+    	android:id="@+id/et_add_name" 
+    	android:text="@string/empty">
+   	</EditText>
+    <TextView 
+    	android:layout_width="wrap_content" 
+    	android:id="@+id/tv_add_st_tablet" 
+    	android:layout_height="wrap_content" 
+    	android:layout_gravity="center" 
+    	android:text="Število tablet/odmerkov"
+    	android:textSize="20sp">
+    </TextView>
+    <EditText 
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/et_add_st_tablet" 
+    	android:text="@string/empty"
+    	android:numeric="integer">
+    </EditText>
+    <TextView 
+    	android:layout_width="wrap_content" 
+    	android:id="@+id/tv_add_repeat" 
+    	android:layout_height="wrap_content" 
+    	android:layout_gravity="center" 
+    	android:text="Na vsake koliko ur"
+    	android:textSize="20sp">
+    </TextView>
+    <EditText 
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/et_add_repeat" 
+    	android:text="@string/empty"
+    	android:numeric="integer">
+    </EditText>
+    
+</LinearLayout>
