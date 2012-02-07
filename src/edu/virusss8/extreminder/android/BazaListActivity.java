@@ -1,7 +1,6 @@
 package edu.virusss8.extreminder.android;
 
 import java.net.UnknownHostException;
-
 import org.ksoap2.SoapEnvelope;
 import org.ksoap2.serialization.SoapObject;
 import org.ksoap2.serialization.SoapPrimitive;
@@ -13,7 +12,9 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ListActivity;
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.DialogInterface;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -60,6 +61,9 @@ public class BazaListActivity extends ListActivity implements OnItemClickListene
 	
 	QuickAction mQuickAction = null;
 	
+	SharedPreferences preferences;
+	SharedPreferences.Editor editor;
+	
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -81,6 +85,9 @@ public class BazaListActivity extends ListActivity implements OnItemClickListene
 		mQuickAction.addActionItem(addAlarmItem);
 		mQuickAction.addActionItem(addMedicationItem);
 		mQuickAction.addActionItem(deleteItem);
+		
+		preferences = getSharedPreferences("Alarm", Context.MODE_PRIVATE);
+    	editor = preferences.edit();
 	}
 
 	@Override
@@ -203,6 +210,9 @@ public class BazaListActivity extends ListActivity implements OnItemClickListene
                     	app.bazaAlarms.add(dbElement);
                     	pbAlarm.close();
                     	app.mAlarmStart();
+//                    	AlarmService as = new AlarmService();
+//                    	as.mAlarmStart();
+                    	Toast.makeText(BazaListActivity.this, "Alarm nastavljen ob " + ura + ":" + minuta, Toast.LENGTH_LONG).show();
 //                    	sendToWeb(ime, ""+ura, ""+minuta); // IIS web service (RAIN)
                     	removeDialog(DIALOG_NEW_ALARM);
                     }

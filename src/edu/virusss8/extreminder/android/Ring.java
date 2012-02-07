@@ -35,6 +35,7 @@ public class Ring extends Activity {
 	private OnClickListener klik = new OnClickListener() {
         public void onClick(View v) {
         	app.mAlarmStop();
+        	
         	appendLog(getAlarmObject());
         	finish();
         }

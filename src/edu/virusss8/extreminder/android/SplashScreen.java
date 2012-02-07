@@ -8,7 +8,7 @@ import android.view.MotionEvent;
 public class SplashScreen extends Activity {
 	
 	//how long until we go to the next activity
-	protected int _splashTime = 5000;
+	protected int _splashTime = 2000;
 	
 	private Thread splashTread;
 

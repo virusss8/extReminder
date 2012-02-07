@@ -10,7 +10,9 @@ import edu.virusss8.extreminder.android.db.DbAdapterMain;
 import android.app.AlarmManager;
 import android.app.Application;
 import android.app.PendingIntent;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 
 public class Aplikacija extends Application {
@@ -225,7 +227,10 @@ public class Aplikacija extends Application {
 
 		sekunda = sekunda * 60;
 		
-			
+		SharedPreferences preferences = getSharedPreferences("Alarm", Context.MODE_PRIVATE);
+		SharedPreferences.Editor editor = preferences.edit();
+		editor.putString("name", name);
+		editor.commit();
 		isMediaRunning = true;
 		calendar.add(Calendar.SECOND, sekunda);
 

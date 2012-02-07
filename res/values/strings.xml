@@ -8,7 +8,7 @@
     <color name="clock">#FF6600</color>
 
     <string name="empty"></string>
-    <string name="alarm_service_started">VZAMI ZDRAVILO!!!</string>
+    <string name="alarm_service_started">VZEMI ZDRAVILO!!!</string>
     <string name="alarm_service_finished">Alarm je zakljucen!</string>
     <string name="about_text">Če želite nastaviti nov alarm pritisnite gumb "Nov alarm".
     Tam lahko upravljate z bazo z zdravili; dodate novo zdravilo, ali dodate alarm ze že obstoječe.
